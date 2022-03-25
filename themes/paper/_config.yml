@@ -1,0 +1,52 @@
+
+# html lang
+language:  zh-CN
+
+# main menu navigation
+menu:
+  Home: /
+  About: /about
+
+# stylesheets loaded in the <head>
+stylesheets:
+
+stylesheets_preload:
+- https://cdn.staticfile.org/highlight.js/10.0.0/styles/github.min.css # for highlight
+- https://fonts.loli.net/css?family=Abril+Fatface&display=swap # for font
+
+# scripts loaded in the end of the body
+scripts_defer:
+- https://cdn.staticfile.org/highlight.js/10.0.0/highlight.min.js # for highlight
+- /js/paper.js # for basic script
+
+
+social:
+  电报: https://t.me/siontine
+  邮箱: mailto:agapehydor2@gmail.com
+  # and more, you can add other link by the same way
+
+# Uncomment to disable sidebar
+# toc: false
+# link: false
+# archives: false
+# categories: false
+# tags: false
+
+# theme color
+main_color: sky # forest | grass | sky | sun | sea
+
+# google Analytics
+google_analytics_id: xx-xxxxxxx-xx
+
+# commend module
+comment:
+  enable: false
+  appId: 7p1RDvKXevw4GY23CEHDpRf3-gzGzoHsz
+  appKey: R8B1K2a8xSXKNmk3P1VGSEVj
+  placeholder: 随便说些话。
+  notify: false
+  verify: false
+  avatar: mp
+  meta: nick
+  enableQQ: true
+  visitor: true
