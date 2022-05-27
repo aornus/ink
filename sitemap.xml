@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ink.si-on.top/2021/22c949d8d96e/</loc>
+    
+    <lastmod>2022-05-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ink.si-on.top/2022/f2cc0144eda3/</loc>
+    
+    <lastmod>2022-05-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ink.si-on.top/2022/95d34c434eaf/</loc>
     
     <lastmod>2022-05-19</lastmod>
@@ -118,19 +136,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://ink.si-on.top/2022/f2cc0144eda3/</loc>
-    
-    <lastmod>2022-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://ink.si-on.top/</loc>
-    <lastmod>2022-05-24</lastmod>
+    <lastmod>2022-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -140,7 +149,7 @@
   
   <url>
     <loc>https://ink.si-on.top/categories/Readig/</loc>
-    <lastmod>2022-05-24</lastmod>
+    <lastmod>2022-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
