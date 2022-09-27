@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ink.si-on.top/2022/7f7700ad5255/</loc>
+    
+    <lastmod>2022-09-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ink.si-on.top/2022/f42450f3c71d/</loc>
     
     <lastmod>2022-09-27</lastmod>
@@ -136,6 +145,34 @@
   </url>
 
   
+  <url>
+    <loc>https://ink.si-on.top/tags/%E6%9D%90%E6%96%99%E7%A7%91%E5%AD%A6/</loc>
+    <lastmod>2022-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ink.si-on.top/tags/%E5%85%B1%E4%BA%A7%E4%B8%BB%E4%B9%89/</loc>
+    <lastmod>2022-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ink.si-on.top/tags/%E7%83%AD%E5%A4%84%E7%90%86/</loc>
+    <lastmod>2022-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ink.si-on.top/tags/%E7%A4%BE%E4%BC%9A%E5%8F%91%E5%B1%95/</loc>
+    <lastmod>2022-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -147,6 +184,13 @@
   
   <url>
     <loc>https://ink.si-on.top/categories/%E8%AF%97%E9%9B%86/</loc>
+    <lastmod>2022-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ink.si-on.top/categories/%E5%86%99%E4%BD%9C/</loc>
     <lastmod>2022-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

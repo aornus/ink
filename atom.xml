@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Ink🪶</title>
+  <title>细墨</title>
   <icon>https://ink.si-on.top/icon.png</icon>
   <subtitle>思量却是，无情有思。</subtitle>
   <link href="https://ink.si-on.top/atom.xml" rel="self"/>
   
   <link href="https://ink.si-on.top/"/>
-  <updated>2022-09-27T10:08:00.976Z</updated>
+  <updated>2022-09-27T14:23:51.703Z</updated>
   <id>https://ink.si-on.top/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>晶粒生长与社会发展的相似性探究</title>
+    <link href="https://ink.si-on.top/2022/7f7700ad5255/"/>
+    <id>https://ink.si-on.top/2022/7f7700ad5255/</id>
+    <published>2022-09-11T11:38:44.000Z</published>
+    <updated>2022-09-27T14:23:51.703Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="写作" scheme="https://ink.si-on.top/categories/%E5%86%99%E4%BD%9C/"/>
+    
+    
+    <category term="材料科学" scheme="https://ink.si-on.top/tags/%E6%9D%90%E6%96%99%E7%A7%91%E5%AD%A6/"/>
+    
+    <category term="共产主义" scheme="https://ink.si-on.top/tags/%E5%85%B1%E4%BA%A7%E4%B8%BB%E4%B9%89/"/>
+    
+    <category term="热处理" scheme="https://ink.si-on.top/tags/%E7%83%AD%E5%A4%84%E7%90%86/"/>
+    
+    <category term="社会发展" scheme="https://ink.si-on.top/tags/%E7%A4%BE%E4%BC%9A%E5%8F%91%E5%B1%95/"/>
+    
+  </entry>
   
   <entry>
     <title>The Cop and the Anthem</title>
