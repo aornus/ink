@@ -83,11 +83,12 @@
     padding-block-end:12px;
     padding-inline-start:16px;
     padding-inline-end:16px;
-    background-color:rgba(0,0,0,0.054)
+    background-color:rgba(0,0,0,0.054);
+    font-family: 真書替補,活版字型華文正楷,"A-OTF 欧体楷書 Std Light",A-OTF Outai Kaisho Std,"華康歐陽詢體W5","華康文徵明體W4","文鼎皇華楷體",方正新楷体_GB18030,楷体,KaiTi,"方正楷体_GB18030(S10版)",丝柳,標楷體,楷体_GB2312,"FZKaiS-Extended(SIP)","FZKaiT-Extended(SIP)","漢儀楷體(GB18030超大字符集版)","HiraMinProN-W6","Hiragino Mincho ProN","秀英明朝 B JIS2004",DNPShueiMinPr6N-B,"秀英明朝 M JIS2004","DNPShueiMinPr6N-M", "游明朝",YuMincho,"ヒラギノ明朝 ProN W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝","Noto Sans CJK KR";
 }
 @media (prefers-color-scheme: dark){
     .heti blockquote{
-        background-color:rgba(255,255,255,0.054)
+        background-color:rgba(255,255,255,0.054);
     }
 }
 .heti figure{
@@ -117,7 +118,9 @@
 .heti p{
     margin-block-start:12px;
     margin-block-end:24px;
-    text-align:justify
+    text-align:justify;
+    text-decoration: underline overline;
+    font-family: 真書替補,活版字型華文正楷,"A-OTF 欧体楷書 Std Light",A-OTF Outai Kaisho Std,"華康歐陽詢體W5","華康文徵明體W4","文鼎皇華楷體",方正新楷体_GB18030,楷体,KaiTi,"方正楷体_GB18030(S10版)",丝柳,標楷體,楷体_GB2312,"FZKaiS-Extended(SIP)","FZKaiT-Extended(SIP)","漢儀楷體(GB18030超大字符集版)","HiraMinProN-W6","Hiragino Mincho ProN","秀英明朝 B JIS2004",DNPShueiMinPr6N-B,"秀英明朝 M JIS2004","DNPShueiMinPr6N-M", "游明朝",YuMincho,"ヒラギノ明朝 ProN W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝","Noto Sans CJK KR";
 }
 .heti p:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti p:not(:lang(zh)){
     text-align:start
@@ -399,11 +402,11 @@
     font-family:"Times New Roman",times,"Heti Song",serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
 }
 .heti--classic h1,.heti--classic h2,.heti--classic h3,.heti--classic h4,.heti--classic h5,.heti--classic h6{
-    font-family:"Times New Roman",times,"Heti Kai Black",serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-family:"Times New Roman",times,"Heti Kai Black",serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",真書替補,活版字型華文正楷,"A-OTF 欧体楷書 Std Light",A-OTF Outai Kaisho Std,"華康歐陽詢體W5","華康文徵明體W4","文鼎皇華楷體",方正新楷体_GB18030,楷体,KaiTi,"方正楷体_GB18030(S10版)",丝柳,標楷體,楷体_GB2312,"FZKaiS-Extended(SIP)","FZKaiT-Extended(SIP)","漢儀楷體(GB18030超大字符集版)","HiraMinProN-W6","Hiragino Mincho ProN","秀英明朝 B JIS2004",DNPShueiMinPr6N-B,"秀英明朝 M JIS2004","DNPShueiMinPr6N-M", "游明朝",YuMincho,"ヒラギノ明朝 ProN W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝","Noto Sans CJK KR";;
     font-weight:800
 }
 .heti--classic blockquote,.heti--classic cite,.heti--classic q{
-    font-family:"Times New Roman",times,"Heti Kai",serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
+    font-family:"Times New Roman",times,"Heti Kai",serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",真書替補,活版字型華文正楷,"A-OTF 欧体楷書 Std Light",A-OTF Outai Kaisho Std,"華康歐陽詢體W5","華康文徵明體W4","文鼎皇華楷體",方正新楷体_GB18030,楷体,KaiTi,"方正楷体_GB18030(S10版)",丝柳,標楷體,楷体_GB2312,"FZKaiS-Extended(SIP)","FZKaiT-Extended(SIP)","漢儀楷體(GB18030超大字符集版)","HiraMinProN-W6","Hiragino Mincho ProN","秀英明朝 B JIS2004",DNPShueiMinPr6N-B,"秀英明朝 M JIS2004","DNPShueiMinPr6N-M", "游明朝",YuMincho,"ヒラギノ明朝 ProN W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝","Noto Sans CJK KR";
 }
 .heti--classic figcaption,.heti--classic caption,.heti--classic th{
     font-family:"Helvetica Neue",helvetica,arial,"Heti Hei",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
