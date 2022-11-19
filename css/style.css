@@ -1,5 +1,5 @@
 body {
-	margin: 0;
+	margin: 6px;
 	font-size: 1.35em;
 }
 
@@ -35,7 +35,14 @@ a:hover {
 .container {
 	max-width: 45em;
 	margin: 0 auto;
-	padding: 0 1em;
+	padding: 0 0.5em;
+}
+
+.contentcontainer {
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 0 0.5em;
+	overflow-x: scroll;
 }
 
 .header {
@@ -395,7 +402,7 @@ a:hover {
 }
 
 .footer-content {
-    height: 6em;
+    height: 20em;
     margin: auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -472,11 +479,15 @@ article blockquote {
 }
 
 article > blockquote {
-    margin-left: -1em;
-    border-left: 4px solid #aa874b;
-    padding-left: calc(1em - 4px);
-	font-style: italic;
-	color: #777;
+    margin-block-start:12px;
+    margin-block-end:24px;
+    margin-inline-start:5px;
+    margin-inline-end:32px;
+    padding-block-start:12px;
+    padding-block-end:12px;
+    padding-inline-start:16px;
+    padding-inline-end:16px;
+    background-color:rgba(0,0,0,0.054)
 }
 
 .highlight {
@@ -536,3 +547,48 @@ article h1 {
 article .catalogue {
 	margin: auto!important;
 }
+
+.card {
+	position: relative;
+	left: -12px;
+	width: 100%;
+	margin-block-start: 24px;
+	margin-block-end: 48px;
+	padding-block-start: 12px;
+	padding-block-end: 12px;
+	padding-inline-start: 12px;
+	padding-inline-end: 12px;
+	border-radius: 2px;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+	background-color: white;
+  }
+  
+  .article .card {
+	text-align: left;
+  }
+  
+  .card > figcaption {
+	display: inline-block;
+	margin-block-start: 16px;
+	padding-block-start: 4px;
+	padding-block-end: 3px;
+	padding-inline-start: 0;
+	padding-inline-end: 72px;
+	line-height: 24px;
+	border-block-start: 1px solid #ededed;
+  }
+
+  .window-size{
+	height:100vh;width:100vw
+  }
+  .pos-relative {
+    position: relative;
+}
+  .card__vertical-container {
+	max-width: 100%;
+	max-height: 90%;
+	border: 15px solid #ffffff;
+	border-bottom: 8px solid #ffffff;
+	overflow: auto;
+	writing-mode: vertical-rl;
+  }
