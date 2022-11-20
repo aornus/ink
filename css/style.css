@@ -46,11 +46,10 @@ a:hover {
 }
 
 .header {
-	height: 4em;
-	background-color: transparent;
-	line-height: 4em;
-	background-color: #fff;
-	border-bottom: 2px solid #eee;
+    height: 4em;
+    background-color: transparent;
+    line-height: 0em;
+    background-color: #fff;
 }
 
 .header.home {
@@ -77,7 +76,6 @@ a:hover {
 	flex-direction: row;
 	list-style: none;
 	margin: 0;
-	margin-left: auto;
 }
 
 .header .nav .nav-item {
@@ -591,4 +589,5 @@ article .catalogue {
 	border-bottom: 8px solid #ffffff;
 	overflow: auto;
 	writing-mode: vertical-rl;
+	margin:auto;
   }

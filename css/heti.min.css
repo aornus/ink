@@ -119,8 +119,8 @@
     margin-block-start:12px;
     margin-block-end:24px;
     text-align:justify;
-    text-decoration: underline overline;
-    font-family: 真書替補,活版字型華文正楷,"A-OTF 欧体楷書 Std Light",A-OTF Outai Kaisho Std,"華康歐陽詢體W5","華康文徵明體W4","文鼎皇華楷體",方正新楷体_GB18030,楷体,KaiTi,"方正楷体_GB18030(S10版)",丝柳,標楷體,楷体_GB2312,"FZKaiS-Extended(SIP)","FZKaiT-Extended(SIP)","漢儀楷體(GB18030超大字符集版)","HiraMinProN-W6","Hiragino Mincho ProN","秀英明朝 B JIS2004",DNPShueiMinPr6N-B,"秀英明朝 M JIS2004","DNPShueiMinPr6N-M", "游明朝",YuMincho,"ヒラギノ明朝 ProN W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝","Noto Sans CJK KR";
+    /* text-decoration: underline overline;
+    font-family: 真書替補,活版字型華文正楷,"A-OTF 欧体楷書 Std Light",A-OTF Outai Kaisho Std,"華康歐陽詢體W5","華康文徵明體W4","文鼎皇華楷體",方正新楷体_GB18030,楷体,KaiTi,"方正楷体_GB18030(S10版)",丝柳,標楷體,楷体_GB2312,"FZKaiS-Extended(SIP)","FZKaiT-Extended(SIP)","漢儀楷體(GB18030超大字符集版)","HiraMinProN-W6","Hiragino Mincho ProN","秀英明朝 B JIS2004",DNPShueiMinPr6N-B,"秀英明朝 M JIS2004","DNPShueiMinPr6N-M", "游明朝",YuMincho,"ヒラギノ明朝 ProN W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝","Noto Sans CJK KR"; */
 }
 .heti p:not(:lang(zh)):not(:lang(ja)):not(:lang(kr)),.heti p:not(:lang(zh)){
     text-align:start

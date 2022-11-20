@@ -1,0 +1,310 @@
+@font-face {font-family: "çµç¶è­œå­—"; src: url(/z6h2/å”çµç¶è­œæ¯›åšåšé«”.otf)}
+body {background-color: rgb(243, 238, 230); min-width:92vw; overflow:auto}
+:root {--éŸµæŠ¹1:var(--ç«¹ç¯ç¶ );--éŸµæŠ¹2:var(--æ¡ƒç´…);--éŸµæŠ¹3:var(--æ¸…æ°´è—);--éŸµæŠ¹4:var(--é¼¬é»ƒ);--éŸµæŠ¹5:var(--æ·¡ç‰½ç‰›ç´«);--éŸµæŠ¹6:var(--æ©˜æ©™);--éŸµæŠ¹7:var(--æ§èŠ±é»ƒç¶ );--éŸµæŠ¹8:var(--æµ·å¤©è—);--éŸµæŠ¹9:var(--é¹¿è§’æ¤¶);--éŸµæŠ¹0:var(--è”¥ç¶ ); --çµ²æ¬„è‰²:var(--æ£—èµ¤); --å¢¨åœè‰²:var(--çµ²æ¬„è‰²); --é™°æ–‡åº•è‰²:#DD3B44; --æ¨™é»žè‰²:#DD3B44;--é€æ˜Žæ¨™è‰²:#DD3B4477;--åœˆç™¼è‰²:#B49436; --æ ¡æ³¨åœˆé»žè‰²:#9198e5; --ç€é‡åœˆé»žè‰²:var(--é›é’); --æ®µå¾Œæ³¨æ•˜è™ŸæŠ¹è‰²:rgba(198,223,200,0.5); --å·å°¾æ³¨æ•˜è™ŸæŠ¹è‰²:var(--é‡‰è—); --æ—æ³¨å­—è‰²:var(--é·ƒè—); --é¡Œç±¤ç´™è‰²:#fcfcf9; --æ­£æ–‡å€’è§’æ·±:0.2em;--å°å€’è§’æ·±:0.14em;--å¤¾æ³¨å€’è§’æ·±:0.14em; --å­—é›¢æ¡†é ‚:0.5em; --å°åœ–é è¨­é«˜:8em; --å°åœ–é è¨­å¯¬:calc(var(--è¡Œå¯¬)*10)}
+h1,h2,h3,h4,h5,h6 {font-size:1em; line-height:inherit; margin-right:0; margin-left:0; padding:0}
+h1 {font-weight:800} th {font-weight:normal}
+h2{margin-top:1em; font-weight:750} h3{margin-top:2em; font-weight:700} h4{margin-top:3em; font-weight:650} h5{margin-top:4em; font-weight:600} h6{margin-top:5em; font-weight:550}
+h2 .mpnote{position:relative; bottom:1em}
+h3 .mpnote{position:relative; bottom:2em}
+h4 .mpnote{position:relative; bottom:3em}
+h5 .mpnote{position:relative; bottom:4em}
+h6 .mpnote{position:relative; bottom:5em}
+p {margin:0}
+/*article p::before {content:''; margin:-0.5em -0.3em 0 -0.3em; padding:0.5em 0.3em 0 0.3em; background-color:var(--çµ²æ¬„è‰²)}*/ /* å› ä¸èƒ½è¾¨åˆ¥æ®µä¹‹æ€§è³ªï¼Œæš«ä¸è¡Œä¹‹ */
+ins {text-decoration:none; background-color:#f3f3f37f}
+del {opacity:0.6; text-decoration:line-through solid var(--æ­£èµ¤); background-color:rgba(238,238,238,0.7); user-select:none}
+dd {margin-inline-start:0}
+.colateTC {background-color:inherit; color:var(--æ·¡æ —æ¤¶)}/* æ ¡æ³¨ä¹‹å­— */
+.colateMS {background:linear-gradient(0.25turn, transparent 20%, var(--èœœé»ƒ) 20% 80%, transparent 80%)}
+.colateOO {/*border-image-source:radial-gradient(circle closest-side at 90% 50%, transparent 40%, #9198e5 40% 100%, transparent); border-image-slice:43.75% 20% 43.75% 0; border-image-repeat:repeat; border-image-width:0 0.2em 0 0*/background:radial-gradient(circle closest-side at 90% 0.5em, transparent 40%, var(--æ ¡æ³¨åœˆé»žè‰²) 40% 100%, transparent) repeat-y}
+.colateOF {background:radial-gradient(circle closest-side at 92% 0.5em, var(--æ ¡æ³¨åœˆé»žè‰²) 0% 100%, transparent) repeat-y}
+.strROO {background:radial-gradient(circle closest-side at 90% 0.5em, transparent 40%, var(--ç€é‡åœˆé»žè‰²) 40% 100%, transparent) repeat-y}
+.strROF {background:radial-gradient(circle closest-side at 92% 0.5em, var(--ç€é‡åœˆé»žè‰²) 0% 100%, transparent) repeat-y}
+.colateOO,.colateOF, .strROO,.strROF {background-color:inherit; padding-right:0.2em; margin-right:-0.2em; background-size:1.2em 1em}
+.pCmtN, .gCmtN {display:inline-block; height:0; position:relative; bottom:1em; right:calc(0.35em + var(--è¡Œå¯¬)/2); letter-spacing:0; vertical-align:bottom; font-size:0.5em; word-break:keep-all; white-space:nowrap; font-family:Noto Sans CJK KR,sans-serif; font-weight:500}
+.grebdriuo .pCmtN, .grebdriuo .gCmtN {right:calc(0.25em + var(--è·¨è¨»è¡Œå¯¬)/2)}
+.pCmtN>span {background-color:var(--æ®µå¾Œæ³¨æ•˜è™ŸæŠ¹è‰²); color:var(--é›é’); border-radius:0.3em; position:relative; z-index:3; cursor:help; transition:all 0.5s}
+.pCmtN>span:hover {background-color:var(--é›é’); color:var(--æ®µå¾Œæ³¨æ•˜è™ŸæŠ¹è‰²)}
+.pCmtAfN{color:var(--é›é’); background:linear-gradient(-135deg, transparent var(--æ­£æ–‡å€’è§’æ·±), var(--é›é’) var(--æ­£æ–‡å€’è§’æ·±) calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px), transparent calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px)) top right,linear-gradient(-45deg, transparent var(--æ­£æ–‡å€’è§’æ·±), var(--é›é’) var(--æ­£æ–‡å€’è§’æ·±) calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px), transparent calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px)) bottom right,linear-gradient(45deg, transparent var(--æ­£æ–‡å€’è§’æ·±), var(--é›é’) var(--æ­£æ–‡å€’è§’æ·±) calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px), transparent calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px)) bottom left,linear-gradient(135deg, transparent var(--æ­£æ–‡å€’è§’æ·±), var(--é›é’) var(--æ­£æ–‡å€’è§’æ·±) calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px), transparent calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px)) top left,linear-gradient(0deg, var(--é›é’) 0 1px, transparent 1px) bottom center, linear-gradient(180deg, var(--é›é’) 0 1px, transparent 1px) top center;
+ background-size:65% 50%; background-repeat:no-repeat !important; padding:0 calc((var(--è¡Œå¯¬) - 1em)/2)}
+.gCmtN>span {background-color:var(--å·å°¾æ³¨æ•˜è™ŸæŠ¹è‰²); color:#fff; position:relative; z-index:3}
+.pCmnt, .gCmnt {margin:0; padding:0}
+.pCmnt li, .gCmnt li {margin-top:2em; text-indent:-1em}
+.pCmnt {list-style-type:none/*trad-chinese-informal*/}
+.gCmnt {/*list-style-type:ç¢¼å­*/}
+.pCmnt::before {content:'æ ¡å‹˜è¨˜'; margin-top:1em; display:block}
+#éš¨é¡¯æ ¡æ³¨ {position:fixed; top:3rem; height:14vh; width:auto; min-width:3em; max-width:18em; padding:0.5em; font-size:1.4em; line-height:1.5em; background-color:rgba(147,213,220,0.9); border:1px solid var(--è”¥ç¶ ); box-shadow:0 0 0.3em 0.1em rgba(127,127,127,0.5); overflow:hidden; text-overflow:ellipsis; z-index:103}
+#éš¨é¡¯æ ¡æ³¨ dt {font-family:Noto Sans CJK KR,sans-serif; font-weight:500}
+#éš¨é¡¯æ ¡æ³¨ dd {font-family:Noto Serif CJK KR,sans-serif; font-weight:300}
+.hideCopy {display:inline-block; height:0;width:0; line-height:1; opacity:0; position:relative; z-index:-10}
+.charComp {display:inline-block; height:1em; width:1em; letter-spacing:-1em; position:relative}
+.grebdriuo .charComp {padding-bottom:0.25em}
+.charComp .cc_LR_L {left:-0.05em; top:0; transform:scaleX(0.4); transform-origin:center left}
+.charComp .cc_LR_R {right:-0.05em; top:0; transform:scaleX(0.6); transform-origin:center right}
+.charComp .cc_TB_T {left:0; top:-0.05em; transform:scaleY(0.5); transform-origin:top center}
+.charComp .cc_TB_B {left:0; bottom:-0.05em; transform:scaleY(0.5); transform-origin:bottom center}
+.charComp .cc_TLBR_TL {left:0; left:0}
+.charComp .cc_TLBR_BR {right:0; top:0; transform:scale(0.8); transform-origin:bottom right}
+.charComp .cc_LR_L, .charComp .cc_LR_R, .charComp .cc_TB_T, .charComp .cc_TB_B, .charComp .cc_TLBR_TL, .charComp .cc_TLBR_BR {position:absolute; letter-spacing:0}
+.beforegd {font-size:0; padding-bottom:1px; margin-bottom:-1px}
+.rubyStc {display:inline-block; font-size:0.5em; height:0; width:1em; padding-bottom:1px; margin-bottom:-1px; position:relative}
+.rubyStc>span {position:absolute; right:calc(-0.3em - var(--è¡Œå¯¬)*1.5); width:auto; color:var(--æ—æ³¨å­—è‰²); z-index:-1}
+.rubyStc>span>span {background-color:var(--ç´™è‰²)}
+.rubyGap {bottom:0.5em}
+.rubyGap>span {letter-spacing:1em}
+.gdHeadflt {float:left; width:calc(var(--è·¨è¨»è¡Œå¯¬)*2)}
+.gdTailflt {float:right; height:100%; width:calc(100% - var(--è·¨è¨»è¡Œå¯¬)*2)}
+.sprAftgd {display:inline-block; width:1em; position:relative; z-index:-3}
+.long_gd {display:block; height:100%; margin-left:calc(-2*var(--è·¨è¨»è¡Œå¯¬)); margin-right:calc(-2*var(--è·¨è¨»è¡Œå¯¬))}
+.long_gd:last-child {margin-left:0}
+.long_gd>span {position:absolute; top:0.1em; right:0; height:100%; width:100%}
+.sht_gd {display:inline-block; margin-bottom:-0.125em; width:calc(var(--è·¨è¨»è¡Œå¯¬)*2); top:0.1em}
+.ig_gd {display:inline-block; height:1.25em; width:calc(var(--è·¨è¨»è¡Œå¯¬)*2); top:0.1em}
+.jmhgbd {
+	display:inline-block; box-sizing: border-box; height:0; vertical-align: bottom; position:relative; font-weight:normal; color:var(--æ¨™é»žè‰²)
+} /* æ­£æ–‡è¡Œé–“æ¨™é»ž */
+.hgbdSysQt1 {margin-bottom: -1em; position: relative; bottom: 0.65em; letter-spacing: 0; font-family:æ¨™é»žç¬¦è™Ÿ,å®‹ä½“; color:var(--æ¨™é»žè‰²); vertical-align:bottom}
+.hgbdSysQt2 {display: inline-block; height: 0; position: relative; bottom: 0.35em; letter-spacing: 0; font-family:æ¨™é»žç¬¦è™Ÿ,å®‹ä½“; color:var(--æ¨™é»žè‰²); vertical-align:bottom}
+.hgbd2Qt1 {position:relative; bottom:0.75em; letter-spacing:-1em; font-family:æ¨™é»žç¬¦è™Ÿ; color:var(--æ¨™é»žè‰²); vertical-align:top}
+.hgbd2Qt1>span:first-child {position:relative; bottom:0.1em; left:0.1em}
+.hgbd2Qt2 {display:inline-block; height:0; position:relative; bottom:0.25em; letter-spacing:0; font-family:æ¨™é»žç¬¦è™Ÿ,å®‹ä½“; color:var(--æ¨™é»žè‰²); vertical-align:top}
+.hgbd2Qt2>span:first-child {position:relative; bottom:0.1em; margin-bottom:-1em}
+.hgbd2Qt2>span:nth-child(2) {position:relative; right:0.1em}
+.hgbdSysSm {left:0.35em;bottom:0.4em; font-family:æ¨™é»žç¬¦è™Ÿ,æ¥·ä½“,KaiTi,å®‹ä½“,PingFang SC,Source Han Sans SC,Noto Sans CJK SC}
+.hgbdSysMd {left:0.35em;bottom:0.6em; font-family:æ¨™é»žç¬¦è™Ÿ,å®‹ä½“,SimSun,PingFang SC,Source Han Sans SC,Noto Sans CJK SC}
+.hgbdSysTl {left:0.4em;bottom:1em; font-family:ä»¿å®‹,FangSong,å®‹ä½“,SimSun,PingFang SC,Source Han Sans SC,Noto Sans CJK SC}
+.hgbdRightEm {font-size:0.6em; left:1.2em;bottom:1.4em; font-family:æ¨™é»žç¬¦è™Ÿ,ä»¿å®‹,FangSong,å®‹ä½“,SimSun,PingFang SC,Source Han Sans SC,Noto Sans CJK SC; color:var(--ç€é‡åœˆé»žè‰²); z-index:-1}
+.jmhgbd0 {letter-spacing:0; font-family: è¡Œé–“æ¨™é»ž}
+.sigrugxieng {
+  letter-spacing: 0; color:var(--åœˆç™¼è‰²); font-family: è¡Œé–“æ¨™é»ž; position:relative; z-index:-1
+}
+.sigaugxieng {
+	display:inline-block; height:0; width:0; letter-spacing: 0; vertical-align:top; color:var(--åœˆç™¼è‰²); font-family: æ¨™é»žç¬¦è™Ÿ; position:relative; z-index:-1
+} /* å››è§’è²èª¿ */
+.midDotPrd {display: inline-block; height: 0; position: relative; letter-spacing: 0; -webkit-text-decoration: none; text-decoration: none; font-family:æ¨™é»žç¬¦è™Ÿ,å®‹ä½“,ä»¿å®‹; color:var(--æ¨™é»žè‰²)}
+.xiomeng {
+	-webkit-text-decoration: underline wavy var(--æ¨™é»žè‰²); text-decoration: underline wavy var(--æ¨™é»žè‰²); text-decoration-skip: edges; /*attr(data-cl)*/
+	/*background:radial-gradient(circle at 137.5% .5em, transparent .46875em, #DD3B4477 .46875em .625em, transparent .625em, transparent) -0.7em -0.78125em,radial-gradient(circle at -37.5% .5em, transparent .46875em, #DD3B4477 .46875em .625em, transparent .625em, transparent) .3em 0;
+background-size:1em 1.5625em; background-repeat: repeat-y;
+background:radial-gradient(circle at 137.5% .1em, transparent .08125em, #DD3B44 .08125em .125em, transparent .125em, transparent) -.1em .13125em,radial-gradient(circle at -37.5% .1em, transparent .08125em, #DD3B44 .08125em .125em, transparent .125em, transparent) .1em 0; background-size:.2em .2625em;
+*/
+}
+.xiomengRight {
+	-webkit-text-decoration: overline wavy var(--æ¨™é»žè‰²); text-decoration: overline wavy var(--æ¨™é»žè‰²); text-decoration-skip: edges;
+}
+#tentou .xiomeng, .mpnote .xiomeng {padding-left:0.1em; margin-left:-0.1em;-webkit-text-underline-offset: -0.1em; text-underline-offset: -0.1em /* ç«ç‹ 70 ä¹‹å‰ç”¨æ­£å€¼å³ç§» */; text-decoration-color: inherit}
+.grebdriuo .xiomeng, .grebdriuo .xiomengSt, .grebdriuo .xiomengEd {background:radial-gradient(circle at 137.5% .2em, transparent .1625em, var(--é€æ˜Žæ¨™è‰²) .1625em .25em, transparent .25em, transparent) -.2em .2625em,radial-gradient(circle at -37.5% .2em, transparent .1625em, var(--é€æ˜Žæ¨™è‰²) .1625em .25em, transparent .25em, transparent) .2em 0; background-size:.4em .525em; background-repeat:repeat-y; -webkit-text-decoration: none; text-decoration: none}
+.grebdriuo .xiomeng {padding-left:0; margin-left:0; margin-top: 0.15em; margin-bottom: 0.35em; -webkit-text-underline-offset: -0.15em; text-underline-offset: -0.15em}
+.grebdriuo .xiomengSt {	border: none; margin-top: 0.15em; margin-bottom: 0.2em}
+.grebdriuo .xiomengEd {	border: none; margin-top: 0; margin-bottom: 0.35em}
+.juenmeng {
+	/* text-decoration-skip: edges*/border: none;
+	-webkit-text-decoration: none; text-decoration: none;/* margin-inline: 0.15em;*/ margin-top: 0.15em; margin-bottom: 0.15em; box-shadow: -0.05em 0 var(--æ¨™é»žè‰²), inset 0.05em 0 var(--æ¨™é»žè‰²)
+}
+.juenmeng>span {
+  /* margin-inline: -0.15em;*/ margin-top: -0.15em; margin-bottom: -0.15em
+}
+#tentou .juenmeng {box-shadow: -0.05em 0, inset 0.05em 0}
+#tentou .jmhgbd,#tentou .hgbdSysQt1,#tentou .hgbdSysQt2,#tentou .hgbd2Qt1,#tentou .hgbd2Qt2,#tentou .midDotPrd,.toc .jmhgbd,.toc .hgbdSysQt1,.toc .hgbdSysQt2,.toc .hgbd2Qt1,.toc .hgbd2Qt2,.toc .midDotPrd {color:inherit}
+.jmks {-webkit-text-decoration:none; text-decoration:none; padding-left:0.2em; margin-left:-0.2em; background: linear-gradient(var(--æ¨™é»žè‰²) 0 0.05em, transparent 0.05em calc(100% - 0.05em), var(--æ¨™é»žè‰²) calc(100% - 0.05em)) no-repeat, linear-gradient(0.25turn, var(--æ¨™é»žè‰²) 0.05em, transparent 0.05em 0.15em, var(--æ¨™é»žè‰²) 0.15em 0.2em, transparent 0.2em) no-repeat; background-size:0.2em calc(100% - 0.4em); background-position:left center}
+.gdzhbd, .rightLine .jmhgbd,.leftLine .jmhgbd,.rightLCmt .jmhgbd,.leftLCmt .jmhgbd,.twoLCmt .jmhgbd,.twoLine .jmhgbd {
+	display:inline-block; box-sizing: border-box; height:0; width:0; vertical-align:top !important; color:var(--æ¨™é»žè‰²); position:relative; -webkit-text-decoration: none; text-decoration: none; font-family:Noto Sans CJK SC,å®‹ä½“
+} /* å¤¾æ³¨å­—ä¸‹æ¨™é»ž */
+.zzbdQt1, .rightLine .hgbdSysQt1,.leftLine .hgbdSysQt1,.rightLCmt .hgbdSysQt1,.leftLCmt .hgbdSysQt1,.twoLCmt .hgbdSysQt1,.twoLine .hgbdSysQt1,.dhgd .hgbdSysQt1,.pCmnt dt .hgbdSysQt1 {margin-bottom:-1em; position: relative; bottom: 0.8em; letter-spacing: 0; color:var(--æ¨™é»žè‰²); font-family:æ¨™é»žç¬¦è™Ÿ,å®‹ä½“;}
+.zzbdQt2, .rightLine .hgbdSysQt2,.leftLine .hgbdSysQt2,.rightLCmt .hgbdSysQt2,.leftLCmt .hgbdSysQt2,.twoLCmt .hgbdSysQt2,.twoLine .hgbdSysQt2,.dhgd .hgbdSysQt2,.pCmnt dt .hgbdSysQt2 {display: inline-block; height: 0; position: relative; bottom: 0.5em; letter-spacing: 0; color:var(--æ¨™é»žè‰²); font-family:æ¨™é»žç¬¦è™Ÿ,å®‹ä½“;}
+.zzbd2Qt1 {position:relative; bottom:0.7em; letter-spacing:-1em; font-family:æ¨™é»žç¬¦è™Ÿ; color:var(--æ¨™é»žè‰²); vertical-align:top !important}
+.zzbd2Qt1>span:first-child {position:relative; bottom:0.2em}
+.zzbd2Qt2 {display:inline-block; height:0; position:relative; bottom:0.4em; letter-spacing:0; font-family:æ¨™é»žç¬¦è™Ÿ; color:var(--æ¨™é»žè‰²); vertical-align:top !important}
+.zzbd2Qt2>span:first-child {position:relative; bottom:0.2em; margin-bottom:-1em}
+.zzbdMSm, .rightLine .hgbdSysSm,.leftLine .hgbdSysSm,.rightLCmt .hgbdSysSm,.leftLCmt .hgbdSysSm,.twoLCmt .hgbdSysSm,.twoLine .hgbdSysSm {bottom:0.35em; left:0; font-family:æ¨™é»žç¬¦è™Ÿ,æ¥·ä½“,KaiTi,"Noto Sans CJK SC","PingFang SC"}
+.zzbdMMd, .rightLine .hgbdSysMd,.leftLine .hgbdSysMd,.rightLCmt .hgbdSysMd,.leftLCmt .hgbdSysMd,.twoLCmt .hgbdSysMd,.twoLine .hgbdSysMd {bottom:0.6em; left:0; font-family:æ¥·ä½“,KaiTi,"Noto Sans CJK JP",HiraKakuProN-W3}
+.zzbdSm, .rightLine .hgbdSysSm,.leftLine .hgbdSysSm,.rightLCmt .hgbdSysSm,.leftLCmt .hgbdSysSm,.twoLCmt .hgbdSysSm,.twoLine .hgbdSysSm {bottom:0.4em; left:0; font-family:æ¨™é»žç¬¦è™Ÿ,æ¥·ä½“,KaiTi,"Noto Sans CJK JP"}
+.zzbdMd, .rightLine .hgbdSysMd,.leftLine .hgbdSysMd,.rightLCmt .hgbdSysMd,.leftLCmt .hgbdSysMd,.twoLCmt .hgbdSysMd,.twoLine .hgbdSysMd {bottom:0.4em; left:0; font-family:æ¥·ä½“,KaiTi,"Noto Sans CJK JP"}
+.zzbdTl, .rightLine .hgbdSysTl,.leftLine .hgbdSysTl,.rightLCmt .hgbdSysTl,.leftLCmt .hgbdSysTl,.twoLCmt .hgbdSysTl,.twoLine .hgbdSysTl {bottom:1em; left:0.2em; font-family:ä»¿å®‹,FangSong}
+.ryme {color:var(--æ¡ƒç´…,pink); display:inline-block; box-sizing:border-box; height:0; position:relative; bottom:1em/*margin-top:-1em*/; z-index:-2}
+.ryme::before {content: attr(data-éŸµæ¨™); letter-spacing:0; font-family:HiraMinProN-W6,"Hiragino Mincho ProN","Noto Serif CJK TC",ç´°æ˜Žé«”,å®‹ä½“}
+.rightRuby::after {content: attr(data-rrt); color:var(--æ­£èµ¤,red); display:inline-block; height:0; font-size:0.5em; position:relative; left:1.5em; bottom:1.5em; letter-spacing:0; line-height:1; z-index:20; font-family:"Noto Serif CJK TC",HiraMinProN-W6,"Hiragino Mincho ProN",ç´°æ˜Žé«”,å®‹ä½“; word-break:keep-all}
+.grebdriuo,.rightLine,.leftLine,.rightLCmt,.leftLCmt,.twoLCmt,.twoLine {font-size:0.8em; letter-spacing:0.25em; line-height:var(--è·¨è¨»è¡Œå¯¬); vertical-align:top; text-indent:0; position:relative}
+.rightLine,.leftLine,.rightLCmt,.leftLCmt,.twoLCmt,.twoLine {top:0.1em}
+.leftLine,.leftLCmt {vertical-align:bottom}
+.rightLine,.leftLine,.twoLine {font-weight:normal}
+.grebdriuo,.rightLCmt,.leftLCmt,.twoLCmt {font-family:"æ–¹æ­£ç­‘ç´«æ˜Žæœå®‹ ç®€ç¹",çº–é«”æ­¥æ°´ä»¿å®‹,HYZiDianSongS_Unicode,HYZiDianSongS_Unicode_CJK_B,HYFangSong_GB18030Super-ExtB,ä»¿å®‹,å®‹ä½“,çµ±åˆŠæœ™,"Typography Old P","HarmonyOS Sans SC","Noto Serif CJK KR"; font-weight:240; font-stretch:75%}
+.twoLCmt,.twoLine {display:inline-block}
+/* {font-family:çµ±åˆŠæœ™,Typography Old P,å®‹ä½“,ä»¿å®‹,çº–é«”æ­¥æ°´ä»¿å®‹}*/
+.grebdriuo>.gdf012 {vertical-align:top; display:inline-block; margin-bottom:-0.5em}/* bottom äº¦å¯ã€‚ä¸ŠåŒ */
+.gdf012:nth-child(3) {width:2em}
+.grebdriuo .juenmeng {
+	border: none; -webkit-text-decoration: none; text-decoration: none;/* margin-inline: 0.15em;*/ margin-top: 0.15em; margin-bottom: 0.35em; box-shadow: inset 0.2em 0 var(--é€æ˜Žæ¨™è‰²)
+}
+.grebdriuo .juenmeng>span, .grebdriuo .xiomeng>span {
+  /* margin-inline: -0.15em;*/ margin-top: -0.15em; margin-bottom: -0.35em
+}
+.grebdriuo .juenmengSt {
+	border: none; -webkit-text-decoration: none; text-decoration: none; margin-top: 0.15em; margin-bottom: 0.2em; box-shadow: inset 0.2em 0 var(--é€æ˜Žæ¨™è‰²)
+}
+.grebdriuo .juenmengSt>span, .grebdriuo .xiomengSt>span {
+  margin-top: -0.15em; margin-bottom: -0.2em
+}
+.grebdriuo .juenmengEd {
+	border: none; -webkit-text-decoration: none; text-decoration: none; margin-top: 0; margin-bottom: 0.35em; box-shadow: inset 0.2em 0 var(--é€æ˜Žæ¨™è‰²)
+}
+.grebdriuo .juenmengEd>span, .grebdriuo .xiomengEd>span {
+  margin-top: 0; margin-bottom: -0.35em
+}
+.grebdriuo .sigaugxieng {bottom:1.25em}
+.dhgd {opacity:0.7}
+h1>.dhgd,h2>.dhgd {opacity:1}
+.dhgd,p.å·æ•˜,.pCmnt dt {font-size:0.8em; letter-spacing:0.25em; position:relative; top:0.1em; font-family: æ–¹æ­£æ–°ä¹¦å®‹_GB18030,"HarmonyOS Sans SC","Noto Serif CJK KR",å®‹ä½“,ä»¿å®‹,FangSong,Hiragino Mincho ProN; font-weight:320; text-indent:0} /* å–®è¡Œå¤¾æ³¨å’Œæ ¡å‹˜æ¢ç›® */
+dt {display:inline}
+.dhgd .juenmeng,.pCmnt dt .juenmeng,.rightLine .juenmeng,.leftLine .juenmeng,.rightLCmt .juenmeng,.leftLCmt .juenmeng {margin-bottom: 0.35em}
+.dhgd .juenmeng>span,.pCmnt dt .juenmeng>span,.rightLine .juenmeng>span,.leftLine .juenmeng>span,.rightLCmt .juenmeng>span,.leftLCmt .juenmeng>span {margin-bottom: -0.35em}
+.pCmnt dd {font-weight:300}
+p.å·æ•˜>.grebdriuo {font-size:1em}
+.DRinDR {font-family:çº–é«”æ­¥æ°´ä»¿å®‹,ä»¿å®‹,HYZiDianSongS_Unicode,å®‹ä½“,çµ±åˆŠæœ™,"Typography Old P","Noto Serif CJK KR"; color:var(--æ­£é’); }
+.DRinDRhf, .grebdriuo .dhgd {font-family:"FOT-ç­‘ç´«Aã‚ªãƒ¼ãƒ«ãƒ‰æ˜Žæœ Pr6N","FOT-ç­‘ç´«æ˜Žæœ Pr6N","Noto Serif CJK KR",å®‹ä½“,ä»¿å®‹,çµ±åˆŠæœ™,Typography Old P; font-size:0.625em; letter-spacing:1em; position:relative; top:0.3em; opacity:inherit; font-weight:inherit}
+.DRinDRhf .zzbdQt1, .grebdriuo .dhgd .zzbdQt1 {bottom:1.2em}
+.DRinDRhf .zzbdQt2, .grebdriuo .dhgd .zzbdQt2 {bottom:0.9em}
+.DRinDRhf .zzbdSm, .DRinDRhf .zzbdMd, .grebdriuo .dhgd .zzbdSm, .grebdriuo .dhgd .zzbdMd {bottom:0.8em}
+.DRinDRhf .zzbdTl, .grebdriuo .dhgd .zzbdTl {bottom:1.2em}
+.DRinDRhf .juenmeng, .grebdriuo .dhgd .juenmeng {margin-bottom: 1em}
+.DRinDRhf .juenmeng>span, .grebdriuo .dhgd .juenmeng>span {margin-bottom:-1em}
+.å­—æ¨£ {font-size:1.6em; display:inline-flex; height:1.25em; width:1em; font-style:normal; justify-content:center; align-content:center}
+.å­—æ¨£ b {font-weight:500}
+.å­—æ¨£ img+b, .å­—æ¨£ picture+b {color:transparent}
+.å­—æ¨£ picture, .å­—æ¨£>img {z-index:-1; margin-bottom:-1em}
+.grebdriuo .å­—æ¨£ {font-size:1em; height:1em; padding-bottom:0.25em}
+ruby {display: inline-flex; flex-direction: column-reverse;}
+ruby.mscScr {/*display:ruby*/}
+ruby.mscScr .leftRT {ruby-position:under}
+rt {/*display: inline; */margin-left: -0.3em; font-size: 1em; line-height:1; width:0; position:relative; left:0.5em; text-align:center}
+.mscScr>* {font-size:0.8em; line-height:1; display:flex; align-items:center; width:calc(var(--è·¨è¨»è¡Œå¯¬)*2); height:1em; margin:0; left:0; transform:translateY(0.125em)}
+.çµç¶ {font-family:çµç¶è­œå­—,æ¥·ä½“}
+.çµç¶ .hgbdRightEm {font-family:æ¨™é»žç¬¦è™Ÿ,çµç¶è­œå­—,ä»¿å®‹,FangSong,å®‹ä½“,SimSun,PingFang SC,Source Han Sans SC,Noto Sans CJK SC}
+.imVang {color:#fff; background-color:var(--é™°æ–‡åº•è‰²); padding:0 calc((var(--è¡Œå¯¬) - 1em)/2)}/* å¹³é ­é™°æ–‡ */
+.imHiuan {color:#fff; background-color:var(--é™°æ–‡åº•è‰²); padding:0 calc((var(--è¡Œå¯¬) - 1em)/2); border-radius:calc(var(--è¡Œå¯¬)/2)/calc((var(--è¡Œå¯¬) - 1em)/2)}/* åœ“é ­é™°æ–‡ */
+.im6grug {color:#fff; padding:0 calc((var(--è¡Œå¯¬) - 1em)/2);
+ background:linear-gradient(-135deg, transparent var(--æ­£æ–‡å€’è§’æ·±), var(--é™°æ–‡åº•è‰²) var(--æ­£æ–‡å€’è§’æ·±)) top right,linear-gradient(-45deg, transparent var(--æ­£æ–‡å€’è§’æ·±), var(--é™°æ–‡åº•è‰²) 0) bottom right,linear-gradient(45deg, transparent var(--æ­£æ–‡å€’è§’æ·±), var(--é™°æ–‡åº•è‰²) var(--æ­£æ–‡å€’è§’æ·±)) bottom left,linear-gradient(135deg, transparent var(--æ­£æ–‡å€’è§’æ·±), var(--é™°æ–‡åº•è‰²) 0) top left;
+ background-size:51% 50% !important; background-repeat:no-repeat !important}/* å…«(å…­)è§’é™°æ–‡ */
+.mhVang {background:linear-gradient(0deg, var(--å¢¨åœè‰²) 0 1px, transparent 1px) bottom center, linear-gradient(180deg, var(--å¢¨åœè‰²) 0 1px, transparent 1px) top center; padding:0 calc((var(--è¡Œå¯¬) - 1em)/2)}/* å¹³é ­å¢¨åœ */
+.mhHiuan {padding:0 calc((var(--è¡Œå¯¬) - 1em)/2); border-radius:calc(var(--è¡Œå¯¬)/2)/calc((var(--è¡Œå¯¬) - 1em)/2); box-shadow:inset 0 1px var(--å¢¨åœè‰²),inset 0 -1px var(--å¢¨åœè‰²)}/* åœ“é ­å¢¨åœ */
+.mh6grug {background:linear-gradient(-135deg, transparent var(--æ­£æ–‡å€’è§’æ·±), var(--å¢¨åœè‰²) var(--æ­£æ–‡å€’è§’æ·±) calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px), transparent calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px)) top right,linear-gradient(-45deg, transparent var(--æ­£æ–‡å€’è§’æ·±), var(--å¢¨åœè‰²) var(--æ­£æ–‡å€’è§’æ·±) calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px), transparent calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px)) bottom right,linear-gradient(45deg, transparent var(--æ­£æ–‡å€’è§’æ·±), var(--å¢¨åœè‰²) var(--æ­£æ–‡å€’è§’æ·±) calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px), transparent calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px)) bottom left,linear-gradient(135deg, transparent var(--æ­£æ–‡å€’è§’æ·±), var(--å¢¨åœè‰²) var(--æ­£æ–‡å€’è§’æ·±) calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px), transparent calc(var(--æ­£æ–‡å€’è§’æ·±) + 1px)) top left,linear-gradient(0deg, var(--å¢¨åœè‰²) 0 1px, transparent 1px) bottom center, linear-gradient(180deg, var(--å¢¨åœè‰²) 0 1px, transparent 1px) top center;
+ background-size:65% 50%; background-repeat:no-repeat !important; padding:0 calc((var(--è¡Œå¯¬) - 1em)/2)}/* å…«(å…­)è§’å¢¨åœ */
+.mhHiuanNR {padding:0 0.1em; border-radius:0.6em/0.3em; box-shadow:inset 0 1px var(--å¢¨åœè‰²),inset 0 -1px var(--å¢¨åœè‰²),inset 1px 0 var(--å¢¨åœè‰²),inset -1px 0 var(--å¢¨åœè‰²); margin:0 -0.1em}
+.mh8grugNR {padding:0 0.1em; margin:0.2em -0.1em; box-shadow:inset 1px 0 var(--å¢¨åœè‰²),inset -1px 0 var(--å¢¨åœè‰²)}
+.mh8grugNR>span {background:linear-gradient(-135deg, transparent var(--å°å€’è§’æ·±), var(--å¢¨åœè‰²) var(--å°å€’è§’æ·±) calc(var(--å°å€’è§’æ·±) + 1px), transparent calc(var(--å°å€’è§’æ·±) + 1px)) top right,linear-gradient(-45deg, transparent var(--å°å€’è§’æ·±), var(--å¢¨åœè‰²) var(--å°å€’è§’æ·±) calc(var(--å°å€’è§’æ·±) + 1px), transparent calc(var(--å°å€’è§’æ·±) + 1px)) bottom right,linear-gradient(45deg, transparent var(--å°å€’è§’æ·±), var(--å¢¨åœè‰²) var(--å°å€’è§’æ·±) calc(var(--å°å€’è§’æ·±) + 1px), transparent calc(var(--å°å€’è§’æ·±) + 1px)) bottom left,linear-gradient(135deg, transparent var(--å°å€’è§’æ·±), var(--å¢¨åœè‰²) var(--å°å€’è§’æ·±) calc(var(--å°å€’è§’æ·±) + 1px), transparent calc(var(--å°å€’è§’æ·±) + 1px)) top left,linear-gradient(0deg, var(--å¢¨åœè‰²) 0 1px, transparent 1px) bottom center, linear-gradient(180deg, var(--å¢¨åœè‰²) 0 1px, transparent 1px) top center;
+ background-size:65% 50%; background-repeat:no-repeat !important; padding:0 0.1em; margin:-0.2em -0.1em}
+.grebdriuo .im6grug {background:linear-gradient(-135deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--é™°æ–‡åº•è‰²) var(--å¤¾æ³¨å€’è§’æ·±)) top right,linear-gradient(-45deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--é™°æ–‡åº•è‰²) 0) bottom right,linear-gradient(45deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--é™°æ–‡åº•è‰²) var(--å¤¾æ³¨å€’è§’æ·±)) bottom left,linear-gradient(135deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--é™°æ–‡åº•è‰²) 0) top left}
+.grebdriuo .imVang, .grebdriuo .imHiuan, .grebdriuo .im6grug, .grebdriuo .mhVang, .grebdriuo .mh6grug, .grebdriuo .mhHiuan , .rightLCmt .imVang, .rightLCmt .imHiuan, .rightLCmt .im6grug, .rightLCmt .mhVang, .rightLCmt .mh6grug, .rightLCmt .mhHiuan , .leftLCmt .imVang, .leftLCmt .imHiuan, .leftLCmt .im6grug, .leftLCmt .mhVang, .leftLCmt .mh6grug, .leftLCmt .mhHiuan , .rightLine .imVang, .rightLine .imHiuan, .rightLine .im6grug, .rightLine .mhVang, .rightLine .mh6grug, .rightLine .mhHiuan , .leftLine .imVang, .leftLine .imHiuan, .leftLine .im6grug, .leftLine .mhVang, .leftLine .mh6grug, .leftLine .mhHiuan {padding:0 calc((var(--è·¨è¨»è¡Œå¯¬) - 1em)/2); margin:-0.125em 0 0.125em 0}
+.grebdriuo .imVang>span,.grebdriuo .imHiuan>span,.grebdriuo .im6grug>span,.grebdriuo .mhVang>span,.grebdriuo .mhHiuan>span , .rightLCmt .imVang>span,.rightLCmt .imHiuan>span,.rightLCmt .im6grug>span,.rightLCmt .mhVang>span,.rightLCmt .mhHiuan>span , .leftLCmt .imVang>span,.leftLCmt .imHiuan>span,.leftLCmt .im6grug>span,.leftLCmt .mhVang>span,.leftLCmt .mhHiuan>span , .rightLine .imVang>span,.rightLine .imHiuan>span,.rightLine .im6grug>span,.rightLine .mhVang>span,.rightLine .mhHiuan>span , .leftLine .imVang>span,.leftLine .imHiuan>span,.leftLine .im6grug>span,.leftLine .mhVang>span,.leftLine .mhHiuan>span {padding:0; margin:0.125em 0 -0.125em 0}
+.grebdriuo .mh6grug>span>span , .rightLCmt .mh6grug>span>span , .leftLCmt .mh6grug>span>span , .rightLine .mh6grug>span>span , .leftLine .mh6grug>span>span {margin:-0.075em 0 -0.325em 0}
+.grebdriuo .mh6grug>span , .rightLCmt .mh6grug>span , .leftLCmt .mh6grug>span , .rightLine .mh6grug>span , .leftLine .mh6grug>span {box-shadow:inset -1px 0 var(--å¢¨åœè‰²),-1px 0 var(--å¢¨åœè‰²); margin:0.2em 0; padding:0 calc((var(--è·¨è¨»è¡Œå¯¬) - 1em)/2)}
+.grebdriuo .mhVang, .grebdriuo .mhHiuan {box-shadow:inset 0 1px var(--å¢¨åœè‰²),inset 0 -1px var(--å¢¨åœè‰²),inset -1px 0 var(--å¢¨åœè‰²),-1px 0 var(--å¢¨åœè‰²)}
+.grebdriuo .mh6grug {background:linear-gradient(-135deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--å¢¨åœè‰²) var(--å¤¾æ³¨å€’è§’æ·±) calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px), transparent calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px)) top right,linear-gradient(-45deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--å¢¨åœè‰²) var(--å¤¾æ³¨å€’è§’æ·±) calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px), transparent calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px)) bottom right,linear-gradient(45deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--å¢¨åœè‰²) var(--å¤¾æ³¨å€’è§’æ·±) calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px), transparent calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px)) bottom left,linear-gradient(135deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--å¢¨åœè‰²) var(--å¤¾æ³¨å€’è§’æ·±) calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px), transparent calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px)) top left,linear-gradient(0deg, var(--å¢¨åœè‰²) 0 1px, transparent 1px) bottom center, linear-gradient(180deg, var(--å¢¨åœè‰²) 0 1px, transparent 1px) top center; background-size:60% 50%}
+.imVangSt,.imVangEd {color:#fff; background-color:var(--é™°æ–‡åº•è‰²)}
+.imHiuanSt {color:#fff; background-color:var(--é™°æ–‡åº•è‰²); border-radius:0.5em 0.5em 0 0/0.3em 0.3em 0 0}
+.imHiuanEd {color:#fff; background-color:var(--é™°æ–‡åº•è‰²); border-radius:0 0 0.5em 0.5em/0 0 0.3em 0.3em}
+.im6grugSt {color:#fff; background:linear-gradient(-135deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--é™°æ–‡åº•è‰²) var(--å¤¾æ³¨å€’è§’æ·±)) top right,linear-gradient(-45deg, transparent 0, var(--é™°æ–‡åº•è‰²) 0) bottom right,linear-gradient(45deg, transparent 0, var(--é™°æ–‡åº•è‰²) 0) bottom left,linear-gradient(135deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--é™°æ–‡åº•è‰²) 0) top left; background-size:51% 50%; background-repeat:no-repeat}
+.im6grugEd {color:#fff; background:linear-gradient(-135deg, transparent 0, var(--é™°æ–‡åº•è‰²) 0) top right,linear-gradient(-45deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--é™°æ–‡åº•è‰²) 0) bottom right,linear-gradient(45deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--é™°æ–‡åº•è‰²) var(--å¤¾æ³¨å€’è§’æ·±)) bottom left,linear-gradient(135deg, transparent 0, var(--é™°æ–‡åº•è‰²) 0) top left; background-size:51% 50%; background-repeat:no-repeat}
+.mhHiuanSt {border-radius:0.8em/0.3em; box-shadow:inset 0 1px var(--å¢¨åœè‰²)}
+.mhHiuanEd {border-radius:0.8em/0.3em; box-shadow:inset 0 -1px var(--å¢¨åœè‰²)}
+.mh6grugSt {background:linear-gradient(-135deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--å¢¨åœè‰²) var(--å¤¾æ³¨å€’è§’æ·±) calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px), transparent calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px)) top right,linear-gradient(135deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--å¢¨åœè‰²) var(--å¤¾æ³¨å€’è§’æ·±) calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px), transparent calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px)) top left,linear-gradient(180deg, var(--å¢¨åœè‰²) 0 1px, transparent 1px) top center; background-size:60% 50%; background-repeat:no-repeat}
+.mh6grugEd {background:linear-gradient(-45deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--å¢¨åœè‰²) var(--å¤¾æ³¨å€’è§’æ·±) calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px), transparent calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px)) bottom right,linear-gradient(45deg, transparent var(--å¤¾æ³¨å€’è§’æ·±), var(--å¢¨åœè‰²) var(--å¤¾æ³¨å€’è§’æ·±) calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px), transparent calc(var(--å¤¾æ³¨å€’è§’æ·±) + 1px)) bottom left,linear-gradient(0deg, var(--å¢¨åœè‰²) 0 1px, transparent 1px) bottom center; background-size:60% 50%; background-repeat:no-repeat}
+ 
+.grebdriuo .imVangSt, .grebdriuo .imHiuanSt, .grebdriuo .im6grugSt, .grebdriuo .mh6grugSt, .grebdriuo .mhHiuanSt {padding:0.125em 0 0 0; margin:-0.125em 0 0 0}
+.grebdriuo .imVangEd, .grebdriuo .imHiuanEd, .grebdriuo .im6grugEd, .grebdriuo .mh6grugEd, .grebdriuo .mhHiuanEd {padding:0; margin:0 0 0.125em 0}
+.grebdriuo .imVangEd>span, .grebdriuo .imHiuanEd>span, .grebdriuo .im6grugEd>span, .grebdriuo .mh6grugEd>span, .grebdriuo .mhHiuanEd>span {padding:0; margin:0 0 -0.125em 0}
+.imCirc {color:var(--ç´™è‰²); background:radial-gradient(circle closest-side at 50% 0.5em, var(--é™°æ–‡åº•è‰²) 100%, transparent 100%) repeat-y; background-size:1em 1em}
+.imLantn {padding:0 0.1em; color:#fff; background:radial-gradient(circle closest-side at 50% 0.5em, var(--é™°æ–‡åº•è‰²) 0.6em, transparent 0.6em) repeat-y; background-size:1.2em 1em}/* ç–Šç‡ˆç±  */
+.mhCirc {background:radial-gradient(circle closest-side at 50% 0.5em, transparent 90%, var(--å¢¨åœè‰²) 90% 100%, transparent 100%) repeat-y; background-size:1em 1em}
+.mhLantn {padding:0 0.2em; background:radial-gradient(circle closest-side at 50% 0.5em, transparent 0.6em, var(--å¢¨åœè‰²) 0.6em calc(0.6em + 1px), transparent calc(0.6em + 1px)) repeat-y; background-size:1.4em 1em}
+cite {font-weight:400; font-family:æ–¹æ­£é‡‘é™µ,ä»¿å®‹,fangsong; letter-spacing:initial}
+.grebdriuo cite,.rightLCmt cite,.leftLCmt cite,.rightLine cite,.leftLine cite {font-family:inherit; font-weight:inherit; letter-spacing:inherit}
+
+#gaeg {
+	position: absolute; /*z-index: 1;*/
+	border: 2px solid var(--çµ²æ¬„è‰²,red);
+	width: auto; height: 100%;
+	padding: 3px;
+}
+#jiusilan {
+	box-sizing: border-box; width:100%; height:100%;
+	border-top: 1px solid var(--çµ²æ¬„è‰²,red); border-right: 1px solid var(--çµ²æ¬„è‰²,red);/*background:repeating-linear-gradient(to left, var(--éŠ€æœ±,#900) 0px 1px, transparent 1px 1.6em);*/
+}
+.jienghangsen {
+	box-sizing: border-box; width:var(--è¡Œå¯¬); height:100%;
+	border-left: 1px solid var(--çµ²æ¬„è‰²,red); border-bottom: 1px solid var(--çµ²æ¬„è‰²,red); border-right: 0;
+}
+#jiusilan div.jienghangsen:hover {	box-shadow: 0 0 0.4em 1px #0af inset}
+#jiusilan div.jienghangsen {transition: box-shadow 0.3s}
+#tentou {
+	float: left; position:relative;
+	height: 16%; min-width: 2em;
+	color: var(--éŠ€æœ±,#900); font-size: 0.75em;
+	line-height: 1.4em;
+}
+main {position:relative; height:80%; float:left}
+.miipei {
+  /*position: relative; left: 1.6em; bottom: 5vh; height: 5.2em; width: 0; color: var(--éŠ€æœ±,#900); font-size: 0.75em; line-height: 120%*/
+  position: absolute; top: 0
+}
+.mpstl1 {color:var(--é»›ç¶ )}/* é è¨­çœ‰æ‰¹æ¨£å¼æ•˜åˆ— */
+.mpnote {
+  display:block; height:0; width:0; padding:0; margin:0; float:left; color:var(--éŠ€æœ±,#900); font-size:0.75em; font-weight:normal; line-height:120%
+}
+.mpnote>span {display:inline-block; width:auto; position:relative}
+.rsvnote {font-size:0; margin-top:-1px; padding-top:1px}
+.hangbiau {
+	position:relative; top:100%; padding-top: 4px; box-sizing: border-box; width:100%; height:1.25em;
+	z-index: 1; transition: color 0.1s, text-shadow 1s;
+	font-size: 0.5em; color: #ccc; text-align: center; font-family: æ–‡é¼Žçš‡è¯æ¥·é«”,Times; user-select:none
+}
+div.jienghangsen:hover .hangbiau{
+	color: #2578B5; text-shadow: 0 0 0.5em #008E59
+}
+#miun {
+	margin-top:var(--å­—é›¢æ¡†é ‚); margin-left:2em; padding-right:5px; word-break:break-all;
+	/*position: relative; z-index:100æ–‡å­—åœ¨ä¸Š */
+}
+#miug,#inMain {position: relative; z-index:0} #inMain table, fig-il img,figure img {position:relative; z-index:2}
+#inMain table {border-collapse:collapse}
+#å¸™,#è¢  {position:fixed; height:100vh; width:100vw; top:0; left:0; z-index:500; background-image:
+	radial-gradient(circle at 100% 150%, var(--é®å¸ƒæ³¢è‰²ä¸€) 24%, var(--é®å¸ƒæ³¢è‰²äºŒ) 24% 28%, var(--é®å¸ƒæ³¢è‰²ä¸€) 28% 36%, var(--é®å¸ƒæ³¢è‰²äºŒ) 36% 40%, transparent 40%, transparent),
+	radial-gradient(circle at 0    150%, var(--é®å¸ƒæ³¢è‰²ä¸€) 24%, var(--é®å¸ƒæ³¢è‰²äºŒ) 24% 28%, var(--é®å¸ƒæ³¢è‰²ä¸€) 28% 36%, var(--é®å¸ƒæ³¢è‰²äºŒ) 36% 40%, transparent 40%, transparent),
+	radial-gradient(circle at 50% 100%, var(--é®å¸ƒæ³¢è‰²äºŒ) 10%, var(--é®å¸ƒæ³¢è‰²ä¸€) 10% 23%, var(--é®å¸ƒæ³¢è‰²äºŒ) 23% 30%, var(--é®å¸ƒæ³¢è‰²ä¸€) 30% 43%, var(--é®å¸ƒæ³¢è‰²äºŒ) 43% 50%, var(--é®å¸ƒæ³¢è‰²ä¸€) 50% 63%, var(--é®å¸ƒæ³¢è‰²äºŒ) 63% 71%, transparent 71%, transparent),
+	radial-gradient(circle at 100% 50%, var(--é®å¸ƒæ³¢è‰²äºŒ) 5%, var(--é®å¸ƒæ³¢è‰²ä¸€) 5% 15%, var(--é®å¸ƒæ³¢è‰²äºŒ) 15% 20%, var(--é®å¸ƒæ³¢è‰²ä¸€) 20% 29%, var(--é®å¸ƒæ³¢è‰²äºŒ) 29% 34%, var(--é®å¸ƒæ³¢è‰²ä¸€) 34% 44%, var(--é®å¸ƒæ³¢è‰²äºŒ) 44% 49%, transparent 49%, transparent),
+	radial-gradient(circle at 0    50%, var(--é®å¸ƒæ³¢è‰²äºŒ) 5%, var(--é®å¸ƒæ³¢è‰²ä¸€) 5% 15%, var(--é®å¸ƒæ³¢è‰²äºŒ) 15% 20%, var(--é®å¸ƒæ³¢è‰²ä¸€) 20% 29%, var(--é®å¸ƒæ³¢è‰²äºŒ) 29% 34%, var(--é®å¸ƒæ³¢è‰²ä¸€) 34% 44%, var(--é®å¸ƒæ³¢è‰²äºŒ) 44% 49%, transparent 49%, transparent);
+	background-size: 100px 50px; transition:opacity 1s}
+#é¡Œç±¤ {height:60%; width:12vh; position:absolute; top:8vh; left:10vh; background-color:var(--é¡Œç±¤ç´™è‰²); padding:2em; border:0.5em solid #000; box-shadow:0 0 0 1em var(--é¡Œç±¤ç´™è‰²), 0 0 0.3em 1em gray}
+#é¡Œç«  {width:40%; position:absolute; bottom:2vh}
+caption,td,th {border:none; text-align:left; box-shadow: 0 1px var(--é€æ˜Žæ¨™è‰²)}
+caption {padding:1em 0 0 0}
+td:first-child,th:first-child {padding:0 0 0.5em 0}
+td:not(:first-child),th:not(:first-child) {padding:0.5em 0}
+/* #inMain>p::first-line, article>p::first-line {box-shadow:0 -0.25em black}èŽ«åå…¶å¦™å¡æ­»ç«ç‹69.0.3 */
+/*#inMain>p::before,section>p::before {content:''; display:inline-block; height:0.3em; width:var(--è¡Œå¯¬); margin-bottom:-0.3em; transform:translateY(calc(-1*var(--å­—é›¢æ¡†é ‚))); background-color:var(--çµ²æ¬„è‰²)}*/
+.mlh1t,.å·å…§ç›®æ¬¡ a {cursor:pointer; color:var(--æ­£é’); position:relative; z-index:10; transition:color 0.4s}
+.mlh1tFont {font-family: "æ£®æ³½UDé»Žæ˜Žä½“ Gb4","FOT-ç­‘ç´«Aã‚ªãƒ¼ãƒ«ãƒ‰æ˜Žæœ Pr6N","FOT-ç­‘ç´«æ˜Žæœ Pr6N",çµ±åˆŠæœ™,Typography Old P,"HiraMinProN-W6","Hiragino Mincho ProN","ç§€è‹±æ˜Žæœ B JIS2004",DNPShueiMinPr6N-B,"ç§€è‹±æ˜Žæœ M JIS2004","DNPShueiMinPr6N-M", "æ¸¸æ˜Žæœ",YuMincho,"ãƒ’ãƒ©ã‚®ãƒŽæ˜Žæœ ProN W3","HGæ˜ŽæœE","ï¼­ï¼³ ï¼°æ˜Žæœ","ï¼­ï¼³ æ˜Žæœ",Songti SC,å®‹ä½“,ç´°æ˜Žé«”,"Noto Sans CJK KR",ë³¸ëª…ì¡°,"Source Han Serif K"}
+.mlh1t:hover,.å·å…§ç›®æ¬¡ a:hover {color:var(--é»›ç¶ )}
+.mlh1t:active,.å·å…§ç›®æ¬¡ a:active {color:var(--æ­£é’)}
+.ml_sh {height:0; width:0; position:relative; bottom:1.2em; font-size:0.5em; font-family:sans-serif; color:gray; word-break:keep-all}
+.å–®å…’ > li {max-height:100%}
+.æ®µå–®å…’ > li {min-height:33.3%}
+ul.åˆ†æ®µå–®å…’>li {list-style-type:none}
+ul.åˆ†æ®µå–®å…’>li::before {content:''; margin:-0.5em calc((1.2em - var(--è¡Œå¯¬))/2) 0 calc((1.2em - var(--è¡Œå¯¬))/2); padding:0.5em calc((var(--è¡Œå¯¬) - 1.2em)/2) 0 calc((var(--è¡Œå¯¬) - 1.2em)/2); background-color:var(--çµ²æ¬„è‰²)}
+fig-il {float:left; box-sizing:border-box; margin:calc(6px - var(--å­—é›¢æ¡†é ‚)) 0 calc(var(--å­—é›¢æ¡†é ‚) - 6px) 0; border-bottom:1px solid var(--çµ²æ¬„è‰²); border-right:1px solid var(--çµ²æ¬„è‰²); box-shadow:-0.5px 0 var(--çµ²æ¬„è‰²); background-color:var(--ç´™è‰²); height:var(--å°åœ–é è¨­é«˜); width:var(--å°åœ–é è¨­å¯¬); overflow:hidden}
+figure {box-sizing:border-box; margin:calc(6px - var(--å­—é›¢æ¡†é ‚)) 0 0 0; border-left:1px solid var(--çµ²æ¬„è‰²); border-right:1px solid var(--çµ²æ¬„è‰²); width:calc(var(--è¡Œå¯¬)*9); background-color:var(--ç´™è‰²)}
+img {
+  object-fit:contain; position:relative; z-index:110; box-sizing:border-box; max-height:100%; max-width:100%/*; border-bottom:1px solid var(--çµ²æ¬„è‰²,red); margin-right:1px; margin-top:calc(6px - 0.5em); margin-bottom:calc(0.5em - 6px); top:calc(0.5em - 6px)*/
+}
+fig-il img {min-height:90%}
+figure img:only-of-type {height:100%; width:100%}
+.è­”è€…,.æ’°è€…,.æ ¡è€… {text-align:right; padding-bottom:2em}
+.ä½œè€… {margin-top:6em; text-indent:-2em}
+.è¨» {margin-top:1em; font-weight:400}
+.ç¶± {font-family:çµ±åˆŠæœ™,Noto Sans CJK KR,å®‹ä½“,é»‘ä½“}
+.ç›® {margin-top:1em; font-weight:400}
+.spanRows {position:relative; background-color:var(--ç´™è‰²);}
+.headup1,.headup2,.headup3 {display:inline-block; width:var(--è¡Œå¯¬); padding-top:calc(var(--å­—é›¢æ¡†é ‚) - 2px); background:linear-gradient(var(--ç´™è‰²) 3px,var(--çµ²æ¬„è‰²) 3px 4px,var(--ç´™è‰²) 4px) padding-box; border-top:2px solid var(--çµ²æ¬„è‰²); box-shadow: inset -1px 0 var(--çµ²æ¬„è‰²)/*,inset 0 3px var(--ç´™è‰²),inset 0 4px var(--çµ²æ¬„è‰²)*/,-1px 0 var(--çµ²æ¬„è‰²)}
+.headup1 {height:1em; margin:calc(-1em - var(--å­—é›¢æ¡†é ‚)) 0 -1em 0}
+.headup2 {height:2em; margin:calc(-2em - var(--å­—é›¢æ¡†é ‚)) 0 -2em 0}
+.headup3 {height:3em; margin:calc(-3em - var(--å­—é›¢æ¡†é ‚)) 0 -3em 0}
